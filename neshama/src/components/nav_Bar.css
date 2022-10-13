@@ -1,0 +1,145 @@
+body {
+    background-color: black;
+}
+
+.candle {
+    position: fixed;
+    top: 65%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    color: gold;
+    font-size: 60px;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 20px gold;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#basad {
+    position: fixed;
+    color: gold;
+    padding-bottom: 3px;
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    top: 35px;
+    right: 0px;
+}
+
+.homeLink {
+    position: fixed;
+    color: gold;
+    border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+    border-right: 1px solid gold;
+    padding-bottom: 3px;
+    font-size: 30px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    top: 110px;
+    left: 0px;
+    width: 65px;
+}
+
+.us {
+    position: fixed;
+    color: gold;
+    border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+    border-right: 1px solid gold;
+    padding-bottom: 3px;
+    font-size: 30px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    top: 166px;
+    left: 0px;
+    width: 65px;
+}
+
+@media(max-width: 900px) {
+    body {
+        background-color: black;
+    }
+
+    .candle {
+        width: 275px;
+        position: fixed;
+        top: 80%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    .title {
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        top: 15%;
+        left: 50%;
+        height: 60px;
+        width: 255px;
+        transform: translate(-50%, -50%);
+        color: gold;
+        font-size: 37px;
+        text-align: center;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 20px gold;
+        border-radius: 30px;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    #basad {
+        position: fixed;
+        color: gold;
+        padding-bottom: 3px;
+        font-size: 20px;
+        font-family: arial, sans-serif;
+        top: 15px;
+        right: 0px;
+    }
+
+    .homeLink {
+        position: fixed;
+        color: gold;
+        border-bottom: 1px solid gold;
+        border-top: 1px solid gold;
+        border-left: 1px solid gold;
+        padding-bottom: 3px;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 8px;
+        font-family: arial, sans-serif;
+        top: 170px;
+        left: 317px;
+        right: 3px;
+        width: 65px;
+    }
+
+    .us {
+        position: fixed;
+        color: gold;
+        border-bottom: 1px solid gold;
+        border-top: 1px solid gold;
+        border-right: 1px solid gold;
+        padding-bottom: 3px;
+        font-size: 30px;
+        text-align: center;
+        font-family: arial, sans-serif;
+        top: 170px;
+        left: 0px;
+        width: 65px;
+    }
+}

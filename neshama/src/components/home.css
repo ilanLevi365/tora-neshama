@@ -1,0 +1,232 @@
+#Link {
+    text-decoration: none;
+}
+
+@keyframes anima0 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anima1 {
+    0% {
+        /* background-color: black; */
+        box-shadow: 0px 0px 0px gold;
+    }
+
+    100% {
+        /* background-color: rgba(255, 255, 255, 0.071); */
+        box-shadow: 0px 0px 25px gold;
+    }
+}
+
+#h3 {
+    font-size: 24px;
+}
+
+@keyframes anima12 {
+    0% {
+        box-shadow: 0px 0px 0px gold;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px gold;
+    }
+}
+
+.divDiscrption {
+    top: 20px;
+    right: 110px;
+    width: 215px;
+    float: left;
+    padding: 0 0 0 5px;
+    position: absolute;
+}
+
+.discrption1 {
+    margin-top: 20px;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 25px gold;
+    right: 67.7px;
+    height: 570px;
+    overflow-y: auto;
+    float: left;
+    position: relative;
+    margin-left: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gold;
+    font-size: 18px;
+    width: 210px;
+    padding-left: 20px;
+    padding-right: 14px;
+    text-align: right;
+    opacity: 1;
+}
+
+.options1 {
+    position: fixed;
+    opacity: 1;
+    left: 115px;
+    color: gold;
+    font-size: 18px;
+    top: 30px;
+    text-align: center;
+}
+
+#options_1 {
+    margin-top: 10px;
+    opacity: 1;
+    color: gold;
+    font-size: 18px;
+    width: 230px;
+    height: 165px;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 25px gold;
+}
+
+@keyframes anim {
+    0% {
+        box-shadow: 0px 0px 5px gold;
+    }
+
+    100% {
+        box-shadow: 0px 0px 25px gold;
+    }
+}
+
+#options_1:active {
+    animation: anim 0.2s ease-in-out 0s forwards
+        /* box-shadow: 0px 0px 10px gold; */
+}
+
+#options_1:hover {
+    box-shadow: 0px 0px 35px gold;
+    background-color: rgba(255, 217, 0, 0.096);
+}
+
+#discrption_2 {
+    margin-top: 10px;
+    opacity: 1;
+    color: gold;
+    font-size: 18px;
+}
+
+@media(max-width: 900px) {
+    @keyframes anima1 {
+        0% {
+            /* background-color: black; */
+            box-shadow: 0px 0px 0px gold;
+        }
+
+        100% {
+            /* background-color: rgba(255, 255, 255, 0.071); */
+            box-shadow: 0px 0px 20px gold;
+        }
+    }
+
+    #Link {
+        text-decoration: none;
+    }
+
+    .divDiscrption {
+        top: 220px;
+        right: 5px;
+        width: 215px;
+        float: left;
+        padding: 0 0 0 5px;
+        position: absolute;
+    }
+
+    .discrption1 {
+        margin-top: 20px;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 20px gold;
+        right: 0px;
+        height: 400px;
+        overflow-y: auto;
+        float: left;
+        position: relative;
+        margin-left: 45px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: gold;
+        width: 135px;
+        padding-bottom: 2px;
+        padding-right: 2px;
+        text-align: right;
+        opacity: 1;
+    }
+
+    .options1 {
+        right: 5px;
+        float: left;
+        position: absolute;
+        opacity: 1;
+        left: 15px;
+        color: gold;
+        font-size: 12px;
+        top: 240px;
+        text-align: center;
+        width: 150px;
+    }
+
+    #options_1 {
+        margin-top: 0px;
+        opacity: 1;
+        /* background-color: black; */
+        color: gold;
+        font-size: 10px;
+        width: 150px;
+        height: 122px;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 20px gold;
+    }
+
+    @keyframes anim {
+        0% {
+            box-shadow: 0px 0px 5px gold;
+        }
+
+        100% {
+            box-shadow: 0px 0px 20px gold;
+        }
+    }
+
+    #options_1:active {
+        opacity: 1;
+        animation: anim 0.3s ease-in-out 0s forwards
+    }
+
+    #options_1:hover {
+        opacity: 1;
+        box-shadow: 0px 0px 35px gold;
+        background-color: rgba(255, 217, 0, 0.096);
+    }
+
+    #options_2 {
+        margin-top: -32px;
+        opacity: 1;
+        color: gold;
+        font-size: 18px;
+    }
+
+    #discrption2 {
+        margin-top: -10px;
+        opacity: 1;
+        color: gold;
+        font-size: 22px;
+    }
+
+    #p {
+        position: fixed;
+        margin-top: -10px;
+        margin-left: 35px;
+    }
+
+    #h3 {
+        font-size: 20px;
+    }
+}

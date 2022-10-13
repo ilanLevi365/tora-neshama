@@ -1,0 +1,680 @@
+#background_Invoicing {
+    top: 0px;
+    position: absolute;
+    box-shadow: 0px 0px 70px black;
+}
+
+#all_Invoicing {
+    position: absolute;
+    top: 0px;
+    box-shadow: 0px 0px 70px black;
+}
+
+.invoicing {
+    box-shadow: 0px 0px 700px black;
+    border: 5px solid gold;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.3px;
+    background-color: rgba(248, 244, 229, 0.888);
+    width: 500px;
+    height: 550px;
+    top: 0px;
+    left: 25%;
+    color: black;
+}
+
+.stick {
+    color: black;
+    margin: 20px;
+    position: absolute;
+    top: 180px;
+    left: 530px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.758);
+    width: 200px;
+    height: 200px;
+    border: 1px solid gold;
+}
+
+.btn_download {
+    background-color: black;
+    opacity: 1;
+    color: gold;
+    margin-top: 10px;
+    margin-left: 53px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 10px gold;
+    text-decoration: none;
+    position: fixed;
+    top: 49%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.btn_end {
+    background-color: black;
+    opacity: 1;
+    color: gold;
+    margin-top: 10px;
+    margin-left: 53px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 10px gold;
+    text-decoration: none;
+    position: fixed;
+    top: 60%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+#end {
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.btn_download:hover, .btn_end:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px gold;
+}
+
+.btn_download:active, .btn_end:active {
+
+    cursor: pointer;
+    box-shadow: 0px 0px 10px gold;
+}
+
+.div_word_Invoicing {
+    /* position: fixed; */
+    background-color: black;
+    /* top: -4px; */
+    width: 500px;
+    height: 124px;
+    font-size: 70px;
+    /* border-top: 2px solid black; */
+}
+
+#word_Invoicing1 {
+    position: fixed;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: arial;
+    color: gold;
+    top: 11%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+#word_Invoicing2 {
+    position: fixed;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: arial;
+    color: gold;
+    top: 11%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#img_company_Logo {
+    position: absolute;
+    width: 88px;
+    top: 5px;
+    right: 195px;
+}
+
+.frame_Invoicing {
+    border: 1px solid black;
+    width: 500px;
+    height: 550px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.div_img_stamp {
+    position: absolute;
+    width: 500px;
+    bottom: -452px;
+}
+
+#img_stamp {
+    position: absolute;
+    width: 500px;
+    height: 130px;
+    bottom: 0px;
+}
+
+.right_Part {
+    font-family: arial;
+    margin-top: 60px;
+    position: absolute;
+    right: 90px;
+    width: 80px;
+    height: 85%;
+    border-left: 1px solid black;
+    text-align: right;
+}
+
+.right_Part #title {
+    color: rgb(155, 155, 4);
+    margin-top: -0px;
+    position: absolute;
+    font-size: 13.8px;
+    right: -65px;
+}
+
+.right_Part #title1 {
+    color: rgb(155, 155, 4);
+    margin-top: -5px;
+    position: absolute;
+    font-size: 13.8px;
+    right: -65px;
+}
+
+.right_Part #title2 {
+    color: rgb(155, 155, 4);
+    margin-top: -5px;
+    position: absolute;
+    font-size: 13.8px;
+    right: -68px;
+}
+
+.right_Part #title3 {
+    color: rgb(155, 155, 4);
+    margin-top: -5px;
+    position: absolute;
+    font-size: 13.8px;
+    right: -68px;
+}
+
+.right_Part #title4 {
+    color: rgb(155, 155, 4);
+    margin-top: 0px;
+    position: absolute;
+    font-size: 13.8px;
+    right: -68px;
+}
+
+.billed_To {
+    position: absolute;
+    font-size: 12px;
+    font-family: arial;
+    right: -65px;
+    margin-top: 16px;
+    text-align: right;
+}
+
+.billed_To .profil {
+    text-align: right;
+    font-size: 13px;
+}
+
+.right_Part #amount {
+    margin-top: 20px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    right: -65px;
+}
+
+.right_Part #content2, .right_Part #content3, .right_Part #content4 {
+    margin-top: 15px;
+    position: absolute;
+    font-size: 12px;
+    right: -67px;
+}
+
+.left_Part {
+    font-family: arial;
+    width: 300px;
+}
+
+.first {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 40%;
+    height: 150px;
+}
+
+.first .titls {
+    color: rgb(155, 155, 4);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 12px;
+    margin-right: 30px;
+    width: 50%;
+    font-size: 13.8px;
+    margin-top: 52px;
+}
+
+ul {
+    list-style-type: none;
+    font-family: arial;
+    font-size: 12.3px;
+    letter-spacing: 0.3px;
+    margin-top: 60px;
+}
+
+#my_Cart_Item {
+    margin-top: 47px;
+}
+
+.first .contents {
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 7px;
+    width: 52%;
+    border-top: 1px solid black;
+}
+
+#contents {
+    margin-top: -14px;
+}
+
+.midel {
+    position: absolute;
+    margin-top: 50px;
+    top: 350px;
+    right: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first_line {
+    margin-bottom: 26px;
+}
+
+#kav {
+    position: absolute;
+    border-top: 1px solid black;
+    width: 288px;
+    left: -37px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    opacity: 0.2;
+    background-color: white;
+}
+
+#midel_line {
+    margin-top: 16px;
+}
+
+#last_line {
+    margin-top: 16px;
+    font-size: 13.8px;
+}
+
+#midel_title #last_line {
+    color: rgb(155, 155, 4);
+
+}
+
+#midel_contents {
+    text-align: right;
+}
+
+@media(max-width: 900px) {
+
+    #background_Invoicing {
+        color: rgb(214, 195, 91);
+        top: -30px;
+        position: absolute;
+        box-shadow: 0px 0px 600px black;
+        width: 300px;
+        height: 400px;
+    }
+
+    #all_Invoicing {
+        color: rgb(214, 195, 91);
+        position: absolute;
+        top: 0px;
+        box-shadow: 0px 0px 70px black;
+    }
+
+    .invoicing {
+        color: rgb(214, 195, 91);
+        box-shadow: 0px 0px 700px black;
+        border: 2px solid gold;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.3px;
+        background-color: black;
+        width: 300px;
+        height: 400px;
+        top: 0px;
+        left: 0%;
+        color: rgb(212, 181, 4);
+    }
+
+    .stick {
+        color: black;
+        margin: 20px;
+        position: absolute;
+        top: 395px;
+        left: -20px;
+        align-items: center;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.758);
+        width: 300px;
+        height: 80px;
+        box-shadow: 0px 0px 30px black;
+        border: 1px solid gold;
+    }
+
+    .btn_download {
+        background-color: black;
+        opacity: 1;
+        color: gold;
+        margin-top: 10px;
+        margin-left: 53px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 15px gold;
+        text-decoration: none;
+        position: fixed;
+        top: 91%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    .btn_end {
+        background-color: black;
+        opacity: 1;
+        color: gold;
+        margin-top: 10px;
+        margin-left: 53px;
+        width: 120px;
+        height: 30px;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 15px gold;
+        text-decoration: none;
+        position: fixed;
+        top: 91%;
+        left: 16%;
+        transform: translate(-50%, -50%);
+    }
+
+    #end {
+        text-decoration: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn_download:hover, .btn_end:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 20px gold;
+    }
+
+    .btn_download:active, .btn_end:active {
+        cursor: pointer;
+        box-shadow: 0px 0px 10px gold;
+    }
+
+    .div_word_Invoicing {
+        background-color: black;
+        width: 299px;
+        height: 104px;
+        border-bottom: 1px solid gold;
+    }
+
+    #word_Invoicing1 {
+        position: fixed;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 45px;
+        font-family: arial;
+        font-size: 45px;
+        color: gold;
+        top: 25%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    }
+
+    #word_Invoicing2 {
+        position: fixed;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: 10px;
+        font-family: arial;
+        font-size: 45px;
+        color: gold;
+        top: 25%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+    }
+
+    #img_company_Logo {
+        position: absolute;
+        width: 68px;
+        top: 3px;
+        right: 107px;
+    }
+
+    .frame_Invoicing {
+        border: 1px solid rgb(191, 191, 25);
+        width: 300px;
+        height: 400px;
+        margin-bottom: 70px;
+        box-shadow: 0px 0px 5px rgb(191, 191, 25);
+    }
+
+    .div_img_stamp {
+        position: absolute;
+        width: 500px;
+        bottom: -452px;
+    }
+
+    #img_stamp {
+        position: absolute;
+        width: 500px;
+        height: 130px;
+        bottom: 0px;
+    }
+
+    .right_Part {
+        font-family: arial;
+        margin-top: 20px;
+        position: absolute;
+        right: 75px;
+        height: 65%;
+        border-left: 1px solid rgb(191, 191, 25);
+        ;
+        text-align: right;
+        width: 60px;
+    }
+
+    #discrp_rite {
+        position: relative;
+        top: -50px;
+        /* width: 5px;  */
+    }
+
+    .right_Part #title {
+        color: rgb(191, 191, 25);
+        margin-top: -0px;
+        position: absolute;
+        font-size: 11.8px;
+        right: -65px;
+    }
+
+    .right_Part #title1 {
+        color: rgb(191, 191, 25);
+        margin-top: -5px;
+        position: absolute;
+        font-size: 11.8px;
+        right: -65px;
+    }
+
+    .right_Part #title2 {
+        color: rgb(191, 191, 25);
+        margin-top: 5px;
+        position: absolute;
+        font-size: 11.8px;
+        right: -65px;
+    }
+
+    .right_Part #title3 {
+        color: rgb(191, 191, 25);
+        margin-top: 3px;
+        margin-bottom: 15px;
+        position: absolute;
+        font-size: 11.8px;
+        right: -65px;
+    }
+
+    .right_Part #title4 {
+        color: rgb(191, 191, 25);
+        margin-top: 0px;
+        position: absolute;
+        font-size: 11.8px;
+        right: -65px;
+    }
+
+    #discrp_rite .billed_To {
+        position: absolute;
+        font-size: 10px;
+        font-family: arial;
+        right: -65px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        text-align: right;
+    }
+
+    .billed_To .profil {
+        text-align: right;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    .right_Part #amount {
+        margin-top: 20px;
+        position: absolute;
+        font-size: 15px;
+        font-weight: bold;
+        right: -65px;
+    }
+
+    .right_Part #content2, .right_Part #content3, .right_Part #content4 {
+        margin-top: 23px;
+        position: absolute;
+        font-size: 12px;
+        right: -65px;
+    }
+
+    .left_Part {
+        font-family: arial;
+        width: 200px;
+    }
+
+    .first {
+        margin-left: 0px;
+        margin-right: 30px;
+        width: 40%;
+        height: 150px;
+    }
+
+    .first .titls {
+        color: rgb(191, 191, 25);
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 9px;
+        margin-right: 30px;
+        width: 50%;
+        font-size: 11.8px;
+        margin-top: 10px;
+    }
+
+    ul {
+        list-style-type: none;
+        font-family: arial;
+        font-size: 12.3px;
+        letter-spacing: 0.3px;
+        margin-top: 60px;
+    }
+
+    #my_Cart_Item {
+        margin-top: 47px;
+    }
+
+    .first .contents {
+        position: absolute;
+        margin-top: 38px;
+        margin-left: 8px;
+        width: 50%;
+        border-top: 1px solid rgb(191, 191, 25);
+        ;
+    }
+
+    #contents {
+        position: absolute;
+        /* margin-top: 88px; */
+        left: 7px;
+        top: -14px;
+    }
+
+    .midel {
+        position: absolute;
+        margin-top: 50px;
+        width: 250px;
+        top: 230px;
+        right: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #first_line {
+        margin-bottom: 26px;
+    }
+
+    #kav {
+        position: absolute;
+        border-top: 1px solid rgb(191, 191, 25);
+        width: 148px;
+        left: 100px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        opacity: 0.2;
+        background-color: white;
+    }
+
+    #midel_line {
+        margin-top: 16px;
+    }
+
+    #last_line {
+        margin-top: 16px;
+    }
+
+    #midel_title #last_line {
+        color: rgb(191, 191, 25);
+        font-size: 15px;
+        position: relative;
+        left: 45px;
+    }
+
+    #midel_contents {
+        text-align: right;
+        position: relative;
+        left: 13px;
+    }
+}

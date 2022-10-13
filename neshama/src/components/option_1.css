@@ -1,0 +1,484 @@
+.option_1 {
+    color: gold;
+}
+
+#div_invoicing {
+    color: black;
+    position: absolute;
+    top: -37%;
+    left: 90%;
+}
+
+.right_Side {
+    position: fixed;
+    width: 300px;
+    text-align: right;
+    height: 450px;
+    right: 120px;
+    top: 225px;
+    opacity: 1;
+    font-size: 26px;
+    font-family: arial, sans-ser;
+}
+
+.left_Side {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    opacity: 1;
+    position: fixed;
+    width: 400px;
+    height: 450px;
+    left: 10px;
+    top: 195px;
+    opacity: 1;
+    font-size: 26px;
+    font-family: arial, sans-ser;
+    text-align: right;
+    text-decoration: none;
+    /* color: black; */
+}
+
+#man {
+    margin-left: 30px;
+    text-align: right;
+}
+
+#manage {
+    color: black;
+    text-decoration: black;
+}
+
+#filled-basic {
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 13px gold;
+    background-color: rgba(255, 217, 0, 0.619);
+    margin-bottom: 20px;
+    color: black;
+    width: 200px;
+    font-size: 22px;
+}
+
+#submitDetails {
+    background-color: black;
+    opacity: 1;
+    color: gold;
+    margin-top: 10px;
+    margin-left: 53px;
+    display: flex;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid gold;
+    box-shadow: 0px 0px 13px gold;
+}
+
+#submitDetails:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px gold;
+    background-color: rgba(255, 217, 0, 0.096);
+}
+
+@keyframes anim {
+    0% {
+        box-shadow: 0px 0px 5px gold;
+    }
+
+    100% {
+        box-shadow: 0px 0px 20px gold;
+    }
+}
+
+#submitDetails:active {
+    opacity: 1;
+    animation: anim 0.3s ease-in-out 0s forwards
+        /* box-shadow: 0px 0px 10px gold; */
+}
+
+span {
+    text-align: center;
+    align-items: center;
+    padding-left: 22px;
+    font-size: 24px;
+}
+
+.newPayPal {
+    background-color: rgba(0, 0, 0, 0.432);
+    position: fixed;
+    top: 68%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    float: left;
+}
+
+@keyframes payPalAnim {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 487px;
+    }
+}
+
+.payPal {
+    border: 1px solid gold;
+    /* box-shadow: 0px 0px 25px gold; */
+    overflow-y: auto;
+    float: left;
+    position: relative;
+    font-family: Arial, Helvetica, sans-ser;
+    color: gold;
+    font-size: 18px;
+    height: 385px;
+    width: 0px;
+    text-align: right;
+    opacity: 1;
+    animation: payPalAnim 0.6s ease-in-out 0s forwards
+}
+
+@keyframes payPalAni {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#payPalButtons {
+    opacity: 0;
+    position: absolute;
+    /* bottom: 50px; */
+    width: 400px;
+    height: 65px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    animation: payPalAni 0.5s ease-in-out 0.6s forwards
+}
+
+@keyframes payPalButtn {
+    0% {
+        width: 400px;
+        height: 65px;
+    }
+
+    100% {
+        width: 400px;
+        height: 0px;
+    }
+}
+
+/* .payPalButtons:active { */
+/* height: 500px; */
+/* } */
+
+#noMan {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.447);
+    width: 0px;
+    height: 400px;
+    left: 285px;
+    top: 215px;
+}
+
+@keyframes noWoma {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 250px;
+    }
+}
+
+#noWoman {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.447);
+    width: 0px;
+    height: 400px;
+    left: 28px;
+    top: 215px;
+}
+
+#message {
+    position: fixed;
+    width: 250px;
+    top: 120px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#nmessage {
+    position: fixed;
+    width: 230px;
+    top: 135px;
+    right: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#loading {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+}
+
+@media(max-width: 900px) {
+    .option_1 {
+        color: gold;
+    }
+
+    #div_invoicing {
+        color: black;
+        position: absolute;
+        top: -10px;
+        left: 8.5%;
+    }
+
+    .right_Side {
+        background-color: rgba(0, 0, 0, 0.429);
+        position: fixed;
+        width: 330px;
+        text-align: right;
+        height: 160px;
+        right: 0px;
+        top: 485px;
+        margin: 15px;
+        opacity: 1;
+        font-size: 19.5px;
+        font-family: arial, sans-ser;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: -40px;
+    }
+
+    .disc {
+        position: relative;
+        top: -17px
+    }
+
+    .disc1 {
+        position: relative;
+        top: -15px
+    }
+
+    .left_Side {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        opacity: 1;
+        position: fixed;
+        width: 270px;
+        height: 0px;
+        left: 10px;
+        top: 200px;
+        opacity: 1;
+        font-size: 20px;
+        font-family: arial, sans-ser;
+        text-align: right;
+        text-decoration: none;
+        /* color: black; */
+    }
+
+    #man {
+        margin-left: 10px;
+        text-align: right;
+    }
+
+    #manage {
+        color: black;
+        text-decoration: black;
+    }
+
+    #filled-basic {
+        font-size: 20px;
+        text-decoration: none;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 13px gold;
+        background-color: rgba(255, 217, 0, 0.619);
+        margin-bottom: 15px;
+        margin-left: 5px;
+        color: black;
+        width: 140px;
+        height: 20px;
+    }
+
+    #submitDetails {
+        background-color: black;
+        opacity: 1;
+        color: gold;
+        margin-top: 10px;
+        margin-left: 30px;
+        display: flex;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        border: 1px solid gold;
+        box-shadow: 0px 0px 13px gold;
+    }
+
+    #submitDetails:hover {
+        cursor: pointer;
+        box-shadow: 0px 0px 20px gold;
+        background-color: rgba(255, 217, 0, 0.096);
+    }
+
+    @keyframes anim {
+        0% {
+            box-shadow: 0px 0px 5px gold;
+        }
+
+        100% {
+            box-shadow: 0px 0px 20px gold;
+        }
+    }
+
+    #submitDetails:active {
+        opacity: 1;
+        animation: anim 0.3s ease-in-out 0s forwards
+            /* box-shadow: 0px 0px 10px gold; */
+    }
+
+    span {
+        text-align: center;
+        align-items: center;
+        padding-left: 22px;
+        font-size: 24px;
+    }
+
+    .newPayPal {
+        background-color: rgba(0, 0, 0, 0.432);
+        position: fixed;
+        top: 69%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        float: left;
+    }
+
+    @keyframes payPalAnim {
+        0% {
+            width: 0px;
+        }
+
+        100% {
+            width: 350px;
+        }
+    }
+
+    .payPal {
+        border: 1px solid gold;
+        overflow-y: auto;
+        float: left;
+        position: relative;
+        font-family: Arial, Helvetica, sans-ser;
+        color: gold;
+        font-size: 18px;
+        height: 385px;
+        width: 0px;
+        text-align: right;
+        opacity: 1;
+        left: ;
+        animation: payPalAnim 0.6s ease-in-out 0s forwards
+    }
+
+    @keyframes payPalAni {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    #payPalButtons {
+        opacity: 0;
+        position: absolute;
+        width: 280px;
+        height: 65px;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        float: left;
+        animation: payPalAni 0.5s ease-in-out 0.6s forwards
+    }
+
+    @keyframes payPalButtn {
+        0% {
+            width: 400px;
+            height: 65px;
+        }
+
+        100% {
+            width: 400px;
+            height: 0px;
+        }
+    }
+
+    #noMan {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.447);
+        width: 0px;
+        height: 253px;
+        left: 193px;
+        top: 237.6px;
+    }
+
+    @keyframes noWoma {
+        0% {
+            width: 0px;
+        }
+
+        100% {
+            width: 250px;
+        }
+    }
+
+    #noWoman {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.447);
+        width: 0px;
+        height: 280px;
+        left: -66px;
+        top: 210.6px;
+    }
+
+    #message {
+        width: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: fixed;
+        top: 2%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+
+    #nmessage {
+        position: fixed;
+        width: 230px;
+        top: 2%;
+        left: 46%;
+        transform: translate(-50%, -50%);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    #loading {
+        position: fixed;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        float: left;
+    }
+}
